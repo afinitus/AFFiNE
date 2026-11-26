@@ -30,7 +30,7 @@ git push origin canary
 
 ### 3. Create a Release Action
 
-Trigger a release action in the [Release Desktop App](https://github.com/toeverything/AFFiNE/actions/workflows/release-desktop-app.yml).
+Trigger a release action in the [Release Candidates](https://github.com/toeverything/AFFiNE/actions/workflows/release.yml) workflow.
 
 ![img.png](assets/release-action.png)
 
