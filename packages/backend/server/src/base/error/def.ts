@@ -724,7 +724,7 @@ export const USER_FRIENDLY_ERRORS = {
   subscription_plan_not_found: {
     type: 'resource_not_found',
     args: { plan: 'string', recurring: 'string' },
-    message: 'You are trying to access a unknown subscription plan.',
+    message: 'You are trying to access an unknown subscription plan.',
   },
   cant_update_onetime_payment_subscription: {
     type: 'action_forbidden',
@@ -897,7 +897,7 @@ export const USER_FRIENDLY_ERRORS = {
     type: 'invalid_input',
     args: { key: 'string', want: 'string', get: 'string' },
     message: ({ key, want, get }) =>
-      `Invalid runtime config type  for '${key}', want '${want}', but get ${get}.`,
+      `Invalid runtime config type for '${key}', want '${want}', but get ${get}.`,
   },
   mailer_service_is_not_configured: {
     type: 'internal_server_error',
