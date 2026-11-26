@@ -77,7 +77,11 @@ export function parseCookies(
   const cookieStr = req.headers.cookie ?? '';
   req.cookies = cookieStr.split(';').reduce(
     (cookies, cookie) => {
-      const [key, val] = cookie.split('=');
+      const separatorIndex = cookie.indexOf('=');
+      const key =
+        separatorIndex === -1 ? cookie : cookie.slice(0, separatorIndex);
+      const val =
+        separatorIndex === -1 ? undefined : cookie.slice(separatorIndex + 1);
 
       if (key) {
         const rawKey = key.trim();
