@@ -2543,7 +2543,7 @@
   "error.DOC_UPDATE_BLOCKED": "Doc {{docId}} under Space {{spaceId}} is blocked from updating.",
   "error.VERSION_REJECTED": "Your client with version {{version}} is rejected by remote sync server. Please upgrade to {{serverVersion}}.",
   "error.INVALID_HISTORY_TIMESTAMP": "Invalid doc history timestamp provided.",
-  "error.DOC_HISTORY_NOT_FOUND": "History of {{docId}} at {{timestamp}} under Space {{spaceId}}.",
+  "error.DOC_HISTORY_NOT_FOUND": "History of {{docId}} at {{timestamp}} under Space {{spaceId}} not found.",
   "error.BLOB_NOT_FOUND": "Blob {{blobId}} not found in Space {{spaceId}}.",
   "error.BLOB_INVALID": "Blob is invalid.",
   "error.EXPECT_TO_PUBLISH_DOC": "Expected to publish a doc, not a Space.",
