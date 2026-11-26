@@ -1636,7 +1636,7 @@ export function useAFFiNEI18N(): {
       */
     ["com.affine.auth.sign.up.success.title"](): string;
     /**
-      * `You have successfully signed in. The app will automatically open or redirect to the web version. if you encounter any issues, you can also click the button below to  manually open the AFFiNE app.`
+      * `You have successfully signed in. The app will automatically open or redirect to the web version. If you encounter any issues, you can also click the button below to manually open the AFFiNE app.`
       */
     ["com.affine.auth.signed.success.subtitle"](): string;
     /**
@@ -4689,7 +4689,7 @@ export function useAFFiNEI18N(): {
         readonly name: string;
     }): string;
     /**
-      * `You have successfully changed {{name}} s role to collaborator.`
+      * `You have successfully changed {{name}}'s role to collaborator.`
       */
     ["com.affine.payment.member.team.change.collaborator.notify.message"](options: {
         readonly name: string;
