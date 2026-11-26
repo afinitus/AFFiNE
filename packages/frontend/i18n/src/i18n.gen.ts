@@ -10427,7 +10427,7 @@ export function useAFFiNEI18N(): {
       */
     ["error.CUSTOMER_PORTAL_CREATE_FAILED"](): string;
     /**
-      * `You are trying to access a unknown subscription plan.`
+      * `You are trying to access an unknown subscription plan.`
       */
     ["error.SUBSCRIPTION_PLAN_NOT_FOUND"](): string;
     /**
@@ -10600,7 +10600,7 @@ export function useAFFiNEI18N(): {
         readonly key: string;
     }): string;
     /**
-      * `Invalid runtime config type  for '{{key}}', want '{{want}}', but get {{get}}.`
+      * `Invalid runtime config type for '{{key}}', want '{{want}}', but get {{get}}.`
       */
     ["error.INVALID_RUNTIME_CONFIG_TYPE"](options: Readonly<{
         key: string;
