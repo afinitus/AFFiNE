@@ -119,7 +119,7 @@ Finished 2 bundles at:
 
 ## CI
 
-Please refer to `.github/workflows/release-desktop-app.yml` for the CI workflow. It will:
+Please refer to `.github/workflows/release-desktop.yml` for the CI workflow. It will:
 
 - build the app for all supported platforms
 - upload the artifacts to GitHub Actions
