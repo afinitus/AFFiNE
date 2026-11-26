@@ -582,7 +582,7 @@ export const USER_FRIENDLY_ERRORS = {
     type: 'resource_not_found',
     args: { spaceId: 'string', docId: 'string', timestamp: 'number' },
     message: ({ spaceId, docId, timestamp }) =>
-      `History of ${docId} at ${timestamp} under Space ${spaceId}.`,
+      `History of ${docId} at ${timestamp} under Space ${spaceId} not found.`,
   },
   blob_not_found: {
     type: 'resource_not_found',

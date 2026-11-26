@@ -10277,7 +10277,7 @@ export function useAFFiNEI18N(): {
       */
     ["error.INVALID_HISTORY_TIMESTAMP"](): string;
     /**
-      * `History of {{docId}} at {{timestamp}} under Space {{spaceId}}.`
+      * `History of {{docId}} at {{timestamp}} under Space {{spaceId}} not found.`
       */
     ["error.DOC_HISTORY_NOT_FOUND"](options: Readonly<{
         docId: string;
